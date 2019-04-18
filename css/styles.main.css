@@ -1,0 +1,23 @@
+#toggler{
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+#main-logo{
+    width:auto;
+    height:4rem;
+    position:relative;
+    top:-8px;
+    padding-left:35px
+}
+.d-inline-block{
+    display: inline-block;
+}
+#sign-in{
+    background-color: #0049b0;
+    color: #FFFFFF;
+    right: auto;
+}

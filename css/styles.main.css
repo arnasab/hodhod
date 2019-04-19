@@ -89,7 +89,7 @@ body{
 .ap-download, .dl, .dl:hover {
      box-shadow: 0 3px 20px -3px rgba(73, 219, 175, .5)
  }
-.ap-download:hover {
+.ap-download:hover{
     background-color: #5189d6;
     color: #fff
 }
@@ -108,7 +108,63 @@ body{
     background-color: rgba(109, 115, 159, .11);
     color:#0049b0;
 }
+
+footer{
+    display: block;
+    box-shadow: none;
+    border-top: 5px solid #4c5b7b;
+    background-color: #35415d;
+    background-image: url(../img/tri_right_dark.png);
+    background-repeat: no-repeat;
+    cursor: default;
+    background-position: right bottom, left bottom;
+    background-size: contain;
+    padding: 50px 0;
+    color: rgba(198, 213, 222, .24);
+}
+
+.social_icons {
+    width: 40px
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+footer .logo-dark {
+    width: 100%;
+    height: 37px;
+    background: url(../img/logo/hodhod-dark.png) center center no-repeat;
+    background-size: contain;
+    margin: 0 auto 5px;
+    text-align: left;
+    left: 5px
+}
+footer a {
+    color: #c6d5de;
+}
+footer .aparat-icon {
+    background: url(../img/aparat.png) center no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: top;
+
+    transition: .2s all
+}
+footer .aparat-icon:hover {
+    background: url(../img/aparat-h.png) center no-repeat;
+    background-size: contain
+}
 @media (max-width: 767px) {
+    .last {
+        text-align: center !important
+    }
+    footer .logo-dark {
+        text-align: center;
+        background-position: center;
+        left: inherit
+    }
     .festival {
         width: 165px;
         margin-top: 11px;
@@ -157,15 +213,19 @@ body{
     .main-section > div {
         height: 600px
     }
-    title-text{
-        display: inline-block;
-        font-size: 39px !important;
+    .title-text{
+        padding-top: 25px;
+        padding-right: 10px;
+        text-align: right;
         font-weight: 700;
-        margin-right: 20px
     }
 }
 
 @media (min-width: 1200px) {
+
+    .h3-xl-right{
+        text-align: right;
+    }
     .festival {
         width: 343px;
         margin-right: -42px

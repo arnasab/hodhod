@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffba6ab4-59f9-4830-b674-27d1a4161a73" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/styles.main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Bold.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Light.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_Medium.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_UltraLight.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/eot/IRANSansWeb_UltraLight.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot@v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg@v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf@v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2@v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff@v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/IRANSansWeb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/IRANSansWeb_Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/IRANSansWeb_Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/IRANSansWeb_Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/IRANSansWeb_UltraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/IRANSansWeb.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/IRANSansWeb_Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/IRANSansWeb_Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/IRANSansWeb_Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff/IRANSansWeb_UltraLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/IRANSansWeb.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/IRANSansWeb_Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/IRANSansWeb_Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/IRANSansWeb_Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/woff2/IRANSansWeb_UltraLight.woff2" beforeDir="false" />
+    <list default="true" id="ffba6ab4-59f9-4830-b674-27d1a4161a73" name="Default" comment="set navbar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,12 +20,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
               <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="254">
-                    <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+                  <state relative-caret-position="510">
+                    <caret line="145" column="91" lean-forward="true" selection-start-line="145" selection-start-column="91" selection-end-line="145" selection-end-column="91" />
                     <folding>
                       <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,8 +37,8 @@
             <file leaf-file-name="styles.min.css" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/styles.min.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="51">
-                    <caret line="4" column="219" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="219" />
+                  <state relative-caret-position="227">
+                    <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
                   </state>
                 </provider>
               </entry>
@@ -87,7 +46,7 @@
             <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/animate.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="194">
+                  <state relative-caret-position="85">
                     <caret line="5" column="770" selection-start-line="5" selection-start-column="770" selection-end-line="5" selection-end-column="770" />
                   </state>
                 </provider>
@@ -95,9 +54,7 @@
             </file>
             <file leaf-file-name="font-icons.css" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/font-icons.css">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-27" />
-                </provider>
+                <provider selected="true" editor-type-id="text-editor" />
               </entry>
             </file>
           </leaf>
@@ -106,12 +63,23 @@
     </window>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+            <state relative-caret-position="149">
+              <caret line="86" column="83" selection-start-line="86" selection-start-column="83" selection-end-line="86" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +87,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-1230">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -128,8 +96,8 @@
       <file leaf-file-name="Project6.html" pinned="false" current-in-tab="false">
         <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/Project6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="170" column="74" selection-start-line="170" selection-start-column="71" selection-end-line="170" selection-end-column="74" />
+            <state relative-caret-position="-1258">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -137,8 +105,12 @@
       <file leaf-file-name="styles.main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="242">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="e#363#574#0" />
+                <element signature="e#582#717#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +133,20 @@
       <find>main-nav</find>
       <find>fa-</find>
       <find>dl{</find>
+      <find>}</find>
+      <find>main-sec</find>
+      <find>vac</find>
+      <find>bl-xs-title-margin</find>
+      <find>festival</find>
+      <find>ap-download</find>
+      <find>apara</find>
+      <find>ap-video</find>
+      <find>hod-xs-center</find>
     </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+      <replace>}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,8 +155,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/styles.min.css" />
-        <option value="$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html" />
         <option value="$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/styles.min.css" />
+        <option value="$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html" />
         <option value="$PROJECT_DIR$/css/styles.main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -186,9 +171,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="893" />
-    <option name="width" value="554" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="713" />
+    <option name="width" value="734" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -245,34 +230,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555610899542</updated>
-      <workItem from="1555610900808" duration="8208000" />
+      <workItem from="1555610900808" duration="8904000" />
+      <workItem from="1555648747058" duration="10544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8208000" />
+    <option name="totallyTimeSpent" value="19448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="893" y="0" width="554" height="867" extended-state="0" />
+    <frame x="713" y="0" width="734" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29126215" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32960895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,10 +268,83 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="set navbar" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styles.min.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/Project6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="170" column="74" selection-start-line="170" selection-start-column="71" selection-end-line="170" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#363#574#0" />
+            <element signature="e#582#717#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="219" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="770" selection-start-line="5" selection-start-column="770" selection-end-line="5" selection-end-column="770" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/font-icons.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.min.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa3516.24806/pace-master/themes/blue/pace-theme-minimal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -293,13 +353,11 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/font-icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="85">
           <caret line="5" column="770" selection-start-line="5" selection-start-column="770" selection-end-line="5" selection-end-column="770" />
         </state>
       </provider>
@@ -318,52 +376,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/styles.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="219" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/Project6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="170" column="74" selection-start-line="170" selection-start-column="71" selection-end-line="170" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/rtl.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/img/l.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/img/bale-main.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/Project6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="242">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="e#363#574#0" />
+            <element signature="e#582#717#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://E:/learning/Otedia/Bootstrap/Exercise/CH33/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1230">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="149">
+          <caret line="86" column="83" selection-start-line="86" selection-start-column="83" selection-end-line="86" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="145" column="91" lean-forward="true" selection-start-line="145" selection-start-column="91" selection-end-line="145" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

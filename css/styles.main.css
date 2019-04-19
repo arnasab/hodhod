@@ -13,11 +13,161 @@
     top:-8px;
     padding-left:35px
 }
-.d-inline-block{
-    display: inline-block;
-}
+/*.d-inline-block{*/
+    /*display: inline-block;*/
+/*}*/
 #sign-in{
     background-color: #0049b0;
     color: #FFFFFF;
     right: auto;
+}
+
+#background {
+    background: url(../img/tri_left.png) left bottom no-repeat #fff;
+    background-size: contain;
+    height: 740px;
+
+}
+#main-left-logo {
+    margin: 0 auto;
+    max-height: 500px;
+    position: relative;
+    transition: all .5s ease 0s;
+    top: 0;
+    left: 0
+}
+#nav{
+    position: fixed;
+    background-color: rgba(0 , 0 , 0 , 0.8);
+    width: 240px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    line-height: 2.5em;
+    padding-top: 30px;
+    transition-duration: 0.4s;
+}
+#navbar{
+    position: fixed;
+    padding: 20px 40px;
+    right: 0;
+    left: 0;
+    top:0;
+    z-index: 100;
+    transition-duration: 0.5s;
+}
+.hod-xs-center {
+      text-align: center !important
+  }
+body{
+    padding-top: 100px;
+}
+.festival {
+    width: 343px;
+    background: #ffba00;
+    display: inline-block;
+    margin-right: -42px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 3px 20px -3px rgba(255, 186, 0, .7);
+    font-weight: 700
+}
+
+.festival:focus, .festival:hover {
+    background: #ffae00;
+    color: #fff
+}
+.ap-download {
+    background-color: #0049b0;
+    width: 164px;
+    border-radius: 9px;
+
+    color: #fff
+}
+.ap-download, .dl, .dl:hover {
+     box-shadow: 0 3px 20px -3px rgba(73, 219, 175, .5)
+ }
+.ap-download:hover {
+    background-color: #5189d6;
+    color: #fff
+}
+.ap-download, .ap-video {
+    padding: 7px 2px;
+    font-weight: 500
+}
+.ap-video {
+    width: 163px;
+    border-radius: 9px;
+    border: 2px solid #6d739f;
+    color: #2f3776;
+    box-shadow: 0 3px 20px -3px rgba(109, 115, 159, .3);
+}
+.ap-video:hover {
+    background-color: rgba(109, 115, 159, .11);
+    color:#0049b0;
+}
+@media (max-width: 767px) {
+    .festival {
+        width: 165px;
+        margin-top: 11px;
+        margin-right: 2px
+    }
+    .ap-download {
+        margin-top: 10px
+    }
+    #main-logo1, .footer-logo {
+        width: 200px
+    }
+}
+@media (min-width: 768px) {
+    .festival {
+        width: 382px;
+        margin-right: -58px
+    }
+    .smmain {
+        margin-top: 90px !important
+    }
+
+    title-text{
+        display: inline-block;
+        margin: 35px auto 5px;
+    }
+    #main-logo1, .footer-logo {
+        width: 130px
+    }
+    .ap-video {
+        margin-right: 33px
+    }
+
+}
+@media (min-width: 992px) {
+    .festival {
+        width: 357px;
+        margin-right: -70px
+    }
+
+    #main-logo1 {
+        width: 91px;
+        max-width: 500% !important;
+        height: auto;
+        top: 2px !important
+    }
+    .main-section > div {
+        height: 600px
+    }
+    title-text{
+        display: inline-block;
+        font-size: 39px !important;
+        font-weight: 700;
+        margin-right: 20px
+    }
+}
+
+@media (min-width: 1200px) {
+    .festival {
+        width: 343px;
+        margin-right: -42px
+    }
 }

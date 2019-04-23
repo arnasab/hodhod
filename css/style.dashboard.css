@@ -1922,7 +1922,7 @@ File: scss
   padding-top: 1rem;}
 
 .container-fluid {
-  padding: 0 30px 25px 30px; }
+  padding: 0 50px 25px 30px; }
 
 /*******************
  Topbar
@@ -6115,6 +6115,10 @@ File: scss
     .steamline .sl-right img {
       max-width: 40px; }
 
+.profiletimeline .sl-left img {
+  max-width: 40px;
+}
+
 .steamline .sl-left {
   padding-right: 50px; }
   .steamline .sl-left .desc,
@@ -6271,9 +6275,14 @@ File: scss
     margin-bottom: 0px;
     font-weight: 400; }
 
-/*******************/
-/*profile timeline widget*/
-/*******************/
+
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
 .profiletimeline {
   position: relative;
   margin-right: 70px;

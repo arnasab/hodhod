@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffba6ab4-59f9-4830-b674-27d1a4161a73" name="Default" comment="set navbar">
-      <change afterPath="$PROJECT_DIR$/src/admin/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/send message.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/admin.dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/admin.dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/chart.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,14 +82,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+            <state relative-caret-position="391">
+              <caret line="292" column="30" lean-forward="true" selection-start-line="288" selection-start-column="24" selection-end-line="292" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send message.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/admin/send message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="249" column="75" lean-forward="true" selection-start-line="249" selection-start-column="75" selection-end-line="249" selection-end-column="75" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AdminX-master/layouts/form_elements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="665" lean-forward="true" selection-start-line="625" selection-start-column="15" selection-end-line="665" />
             </state>
           </provider>
         </entry>
@@ -133,20 +151,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rtl.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/rtl.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="styles.main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2686">
-              <caret line="158" selection-start-line="158" selection-end-line="158" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -159,8 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>media</find>
-      <find>adminx-content</find>
       <find>right23</find>
       <find>sidebar-nav</find>
       <find>.page-wrapper</find>
@@ -189,6 +191,8 @@
       <find>b</find>
       <find>tables</find>
       <find>0 30px 25px 30px;</find>
+      <find>TEXTAREA</find>
+      <find>نوش</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -198,8 +202,8 @@
       <replace>./../assets</replace>
       <replace>right2</replace>
       <replace>left</replace>
-      <replace>right</replace>
       <replace>../../img</replace>
+      <replace>right</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -227,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/admin/chart.html" />
         <option value="$PROJECT_DIR$/css/style.dashboard.css" />
         <option value="$PROJECT_DIR$/src/admin/profile.html" />
+        <option value="$PROJECT_DIR$/src/admin/send message.html" />
       </list>
     </option>
   </component>
@@ -242,9 +247,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="38" />
-    <option name="width" value="1247" />
+    <option name="x" value="850" />
+    <option name="width" value="597" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -320,18 +324,18 @@
       <workItem from="1555648747058" duration="10544000" />
       <workItem from="1555870784783" duration="12153000" />
       <workItem from="1555944435975" duration="17605000" />
-      <workItem from="1556027375666" duration="7358000" />
+      <workItem from="1556027375666" duration="10538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64471000" />
+    <option name="totallyTimeSpent" value="67651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49655172" visible="true" weight="0.121916845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49655172" weight="0.14297521" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
@@ -374,10 +378,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/font-icons.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.min.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa3516.24806/pace-master/themes/blue/pace-theme-minimal.css" />
     <entry file="file://$USER_HOME$/Downloads/Programs/Offline.Explorer.Enterprise.7.6.4630.Portable/Download/https@bale.ai/css/font-icons.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -504,6 +504,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="11840" column="21" lean-forward="true" selection-start-line="11840" selection-start-column="21" selection-end-line="11840" selection-end-column="21" />
+          <folding>
+            <element signature="e#173#1076#0" />
+            <element signature="e#1078#2444#0" />
+            <element signature="e#18922#23319#0" />
+            <element signature="e#102883#103983#0" />
+            <element signature="e#153807#154539#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,11 +723,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AdminX-master/layouts/form_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="665" lean-forward="true" selection-start-line="625" selection-start-column="15" selection-end-line="665" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        <state relative-caret-position="391">
+          <caret line="292" column="30" lean-forward="true" selection-start-line="288" selection-start-column="24" selection-end-line="292" selection-end-column="30" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/send message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="249" column="75" lean-forward="true" selection-start-line="249" selection-start-column="75" selection-end-line="249" selection-end-column="75" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>

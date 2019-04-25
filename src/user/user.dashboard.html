@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <title>داشبورد</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../css/adminx.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../css/rtl.css" />
+    <link rel="stylesheet" href="../../css/pace-theme-minimal.css">
+
+
+    <link href="../../css/style.dashboard.css" rel="stylesheet">
+
+    <link href="../../css/colors/blue.css" id="theme" rel="stylesheet">
+  </head>
+  <style>
+  </style>
+  <body>
+    <div class="adminx-container">
+      <nav class="navbar navbar-expand justify-content-between fixed-top">
+        <a class="navbar-brand mb-0 h1 d-md-block" href="index.html">
+          <img src="../../img/logo/logotext.png" class="navbar-brand-image d-inline-block align-top mr-2" alt="">
+        </a>
+
+
+        <ul class="navbar-nav d-flex justify-content-end mr-2">
+          <!-- Notificatoins -->
+          <li class="nav-item dropdown d-flex align-items-center mr-2">
+            <a class="nav-link nav-link-notifications" id="dropdownNotifications" data-toggle="dropdown" href="#">
+              <i class="oi oi-bell display-inline-block align-middle"></i>
+              <span class="nav-link-notification-number">۳</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-notifications" aria-labelledby="dropdownNotifications">
+              <div class="notifications-header d-flex justify-content-between align-items-center">
+                <span class="notifications-header-title">
+                  اعلان ها
+                </span>
+
+              </div>
+
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action unread">
+                  <p class="mb-1">یک پیام از علی رضانسب در رابطه با<strong> برف روبی پله های دانشکده</strong> در <strong>۱۳۹۸/۰۲/۰۵</strong> داشته اید.</p>
+
+                  <small>چند دقیقه پیش</small>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <p class="mb-1"><strong class="text-success">کار با موفقیت به اتمام رسید</strong><br />پرونده انتقاد پویا پاینده با حل مشکل به اتمام رسید.</p>
+                  <small>۳ روز پیش</small>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <p class="mb-1 text-danger"><strong>عدم حل مشکل پس از گذشت یک ماه</strong></p>
+                  <small>۵ روز پیش</small>
+                </a>
+
+
+              </div>
+
+              <div class="notifications-footer text-center">
+                <a href="#"><small>نمایش همه اعلان ها</small></a>
+              </div>
+            </div>
+          </li>
+          <!-- Notifications -->
+          <li class="nav-item dropdown">
+            <a class="nav-link avatar-with-name" id="navbarDropdownMenuLink" data-toggle="dropdown" href="#">
+              <img src="../../img/users/aliAkbari.jpg" class="d-inline-block align-top" alt="">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">صادق علی اکبری</a>
+              <a class="dropdown-item" href="profile-user.html">ویرایش حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-danger" href="../../index.html">خروج از حساب کاربری</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Sidebar -->
+      <div class="adminx-sidebar expand-hover push">
+        <ul class="sidebar-nav">
+          <li class="sidebar-nav-item">
+            <a href="user.dashboard.html" class="sidebar-nav-link active">
+              <span class="sidebar-nav-icon">
+                <i data-feather="home"></i>
+              </span>
+              <span class="sidebar-nav-name">
+                داشبورد
+              </span>
+              <span class="sidebar-nav-end">
+              </span>
+            </a>
+          </li>
+
+          <li class="sidebar-nav-item">
+            <a href="messages-user.html" class="sidebar-nav-link">
+              <span class="sidebar-nav-icon">
+                <i data-feather="inbox"></i>
+              </span>
+              <span class="sidebar-nav-name">
+                پیام ها
+              </span>
+              <span class="sidebar-nav-end">
+                <span class="badge badge-info">۴</span>
+              </span>
+            </a>
+          </li>
+
+
+          <li class="sidebar-nav-item">
+            <a href="send%20message-user.html" class="sidebar-nav-link ">
+              <span class="sidebar-nav-icon">
+                <i data-feather="edit"></i>
+              </span>
+              <span class="sidebar-nav-name">
+                نوشتن پیشنهاد
+              </span>
+              <span class="sidebar-nav-end">
+              </span>
+            </a>
+          </li>
+
+          <li class="sidebar-nav-item">
+            <a href="../404.html" class="sidebar-nav-link ">
+              <span class="sidebar-nav-icon">
+                <i data-feather="help-circle"></i>
+              </span>
+              <span class="sidebar-nav-name">
+                راهنما
+              </span>
+              <span class="sidebar-nav-end">
+              </span>
+            </a>
+          </li>
+
+
+          <li class="sidebar-nav-item">
+            <a class="sidebar-nav-link collapsed" data-toggle="collapse" href="#navTables" aria-expanded="false" aria-controls="navTables">
+              <span class="sidebar-nav-icon">
+                <i data-feather="user"></i>
+              </span>
+              <span class="sidebar-nav-name">
+                حساب کاربری
+              </span>
+              <span class="sidebar-nav-end">
+                <i data-feather="chevron-right" class="nav-collapse-icon"></i>
+              </span>
+            </a>
+
+            <ul class="sidebar-sub-nav collapse" id="navTables">
+              <li class="sidebar-nav-item">
+                <a href="profile-user.html" class="sidebar-nav-link">
+                   <span class="sidebar-nav-icon">
+                   <i data-feather="settings"></i>
+                  </span>
+                  <span class="sidebar-nav-name">
+                    ویرایش حساب
+                  </span>
+                </a>
+              </li>
+
+              <li class="sidebar-nav-item">
+                <a href="../../index.html" class="sidebar-nav-link">
+                  <span class="sidebar-nav-icon">
+                   <i data-feather="log-out"></i>
+                  </span>
+                  <span class="sidebar-nav-name">
+                    خروج
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </div>
+      <!-- Sidebar End -->
+
+
+      <div class="adminx-content">
+
+        <div class="fix-header fix-sidebar card-no-border">
+
+        <div id="main-wrapper">
+
+
+          <div class="page-wrapper">
+
+            <div class="container-fluid">
+
+
+              <!-- Row -->
+              <div class="row">
+              <div class="col-lg-8 col-xlg-9 col-md-7">
+                <div class="card">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs profile-tab" role="tablist">
+                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">پیام های اخیر</a> </li>
+
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="home" role="tabpanel">
+                      <div class="card-block">
+                        <div class="profiletimeline">
+                          <div class="sl-item">
+                            <div class="sl-right"> <img src="../../img/users/1.jpg" alt="user" class="img-circle"> </div>
+                            <div class="sl-left">
+                              <div><a href="#" class="link">علی رضانسب</a>
+                                <p class="card-subtitle">برف روبی پله های دانشکده</p>
+                                  <div class="m-t-20 row">
+                                    <div class="col-md-3 col-xs-12"><img src="../../img/danshkade.jpg" id="aks" alt="user" class="img-responsive radius"></div>
+                                    <div class="col-md-9 col-xs-12">
+                                      <p> با سلام؛ برف پله های جلوی دانشکده پارو نشده و برای بسیاری از بچه ها مشکلاتی را ایجاد کرده است .لطفا برای حل این مشکل پیگیری های لازم را انجام دهید. </div>
+                                  </div>
+                                <div class="sl-date" style="float: left;">چند دقیقه پیش</div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        <hr>
+                        <div class="profiletimeline">
+                          <div class="sl-item">
+                            <div class="sl-right"> <img src="../../img/users/2.jpg" alt="user" class="img-circle"> </div>
+                            <div class="sl-left">
+                              <div><a href="#" class="link">محمد عبدلله زاده</a>
+                                <p class="card-subtitle">تبعیض در نمرات</p>
+                                <div class="m-t-20 row">
+                                  <div class="col-xs-12">
+                                    <p> با سلام, برخی از اساتید در میان پسران و دختران در نمره دادن تبعیض قائل می شوند.و حق برخی از دانشجویان را ضایع میکنند.لطفا دستورات لازم برای حل این مشکل را صاد فرمایید.</p></div>
+                                </div>
+                                <div class="sl-date" style="float: left;">دو هفته پیش</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="profiletimeline">
+                          <div class="sl-item">
+                            <div class="sl-right"> <img src="../../img/users/3.jpg" alt="user" class="img-circle"> </div>
+                            <div class="sl-left">
+                              <div><a href="#" class="link">محمد جواد خیراندیش</a>
+                                <p class="card-subtitle">چارت بد</p>
+                                <div class="m-t-20 row">
+                                  <div class="col-xs-12">
+                                    <p> سلام, متاسفانه بسیاری از دروسی که در چارت آموزشی وجود دارند عملا بدرد کار نمی خورند لطفا در جلسات هیئت مدیره این موضوع رو بررسی کنید. باتشکر.</p></div>
+                                </div>
+                                <div class="sl-date" style="float: left;">یک ماه پیش</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="profiletimeline">
+                          <div class="sl-item">
+                            <div class="sl-right"> <img src="../../img/users/4.jpg" alt="user" class="img-circle"> </div>
+                            <div class="sl-left">
+                              <div><a href="#" class="link">احسان کریمی</a>
+                                <p class="card-subtitle">اعتراض به نمره</p>
+                                <div class="m-t-20 row">
+                                  <div class="col-xs-12">
+                                    <p>سلام, من به نمره خود اعتراض دارم . با تشکر</p></div>
+                                </div>
+                                <div class="sl-date" style="float: left;">یک ماه پیش</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xlg-3 col-md-5">
+                <!-- Column -->
+                <div class="card">
+                  <img class="card-img-top" src="../../img/profile-bg.jpg" alt="Card image cap">
+                  <div class="card-block little-profile text-center">
+                    <div class="pro-img"><img src="../../img/users/aliAkbari.jpg" alt="user" /></div>
+                    <h3 class="m-b-0">دکتر صادق علی اکبری</h3>
+                    <p>استاد راهنما و هیئت علمی</p>
+                    <a href="profile-user.html" class="m-t-10 waves-effect waves-dark btn btn-primary btn-md btn-rounded">ویرایش حساب</a>
+                    <div class="row text-center m-t-20">
+                      <div class="col-lg-4 col-md-4 m-t-20">
+                        <h3 class="m-b-0 font-light">۸۸%</h3><small>درصد پاسخگویی</small></div>
+                      <div class="col-lg-4 col-md-4 m-t-20">
+                        <h3 class="m-b-0 font-light">۲۱۰</h3><small>تعداد پیام دریافتی</small></div>
+                      <div class="col-lg-4 col-md-4 m-t-20">
+                        <h3 class="m-b-0 font-light">۷۵</h3><small>تعداد پیام ارسالی</small></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-block bg-info">
+                    <h4 class="text-white card-title">ارسال پیام</h4>
+                    <h6 class="card-subtitle text-white m-b-0 op-5">مخاطب خودت رو انتخاب کن</h6>
+                  </div>
+                  <div class="card-block">
+                    <div class="message-box contact-box">
+                      <h2 class="add-ct-btn"><a href="send%20message.html"><button type="button" class="btn btn-circle btn-lg btn-success waves-effect waves-dark">+</button></a></h2>
+                      <div class="message-widget contact-widget">
+                        <!-- Message -->
+                        <a href="send%20message.html">
+                          <div class="user-img"> <img src="../../img/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                          <div class="mail-contnet">
+                            <h5>علی رضانسب</h5> <span class="mail-desc">دانشجو کارشناسی</span></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="send%20message.html">
+                          <div class="user-img"> <img src="../../img/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                          <div class="mail-contnet">
+                            <h5>محمد جواد خیرانیش</h5> <span class="mail-desc">دانشجو کارشناسی</span></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="send%20message.html">
+                          <div class="user-img"> <span class="round">پ</span> <span class="profile-status away pull-right"></span> </div>
+                          <div class="mail-contnet">
+                            <h5>پویا پاینده</h5> <span class="mail-desc"> دانشجو ارشد</span></div>
+                        </a>
+                        <!-- Message -->
+                        <a href="send%20message.html">
+                          <div class="user-img"> <img src="../../img/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                          <div class="mail-contnet">
+                            <h5>احسان کریمی</h5> <span class="mail-desc">دانشجو کارشناسی</span></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Row -->
+            </div>
+
+              <script type="text/javascript" src="../../js/pace.min.js"></script>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <!--<script src="../../js/jquery-3.3.1.min.js"></script>-->
+    <!--<script src="../../js/popper.min.js"></script>-->
+    <!--<script src="../../js/bootstrap.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="../../js/vendor.js"></script>
+
+
+
+  </body>
+</html>

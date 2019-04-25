@@ -5046,7 +5046,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .badge-success {
     color: #fff;
-    background-color: #28a745
+    background-color: #28a745;
 }
 
 .badge-success[href]:focus, .badge-success[href]:hover {
@@ -5068,7 +5068,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .badge-warning {
     color: #212529;
-    background-color: #ffc107
+    background-color: #ffc107;
 }
 
 .badge-warning[href]:focus, .badge-warning[href]:hover {
@@ -5079,7 +5079,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .badge-danger {
     color: #fff;
-    background-color: #dc3545
+    background-color: #fb3a3a
 }
 
 .badge-danger[href]:focus, .badge-danger[href]:hover {
@@ -5101,7 +5101,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .badge-dark {
     color: #fff;
-    background-color: #343a40
+    background-color: #6c757d
 }
 
 .badge-dark[href]:focus, .badge-dark[href]:hover {

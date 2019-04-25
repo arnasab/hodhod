@@ -4,27 +4,36 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+@font-face{
+  font-family: 'IranSans';
+  font-weight:200;
+  src: url('../fonts/IRANSansWeb200.woff') format('woff');
 }
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+@font-face{
+  font-family: 'IranSans';
+  font-weight:300;
+  src: url('../fonts/IRANSansWeb300.woff') format('woff');
 }
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+@font-face{
+  font-family: 'IranSans';
+  font-weight:400;
+  src: url('../fonts/IRANSansWeb400.woff') format('woff');
 }
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+@font-face{
+  font-family: 'IranSans';
+  font-weight:500;
+  src: url('../fonts/IRANSansWeb500.woff') format('woff');
 }
-
+@font-face{
+  font-family: 'IranSans';
+  font-weight:600;
+  src: url('../fonts/IRANSansWeb600.woff') format('woff');
+}
+@font-face{
+  font-family: 'IranSans';
+  font-weight:900;
+  src: url('../fonts/IRANSansWeb900.woff') format('woff');
+}
 
 
 
@@ -39,12 +48,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: IranSans, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: IranSans;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -62,10 +71,10 @@ a:focus {
 a:hover {
 	text-decoration: none;
   color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: -webkit-linear-gradient(left, #21d4fd, #0049b0);
+  color: -o-linear-gradient(left, #21d4fd, #0049b0);
+  color: -moz-linear-gradient(left, #21d4fd, #0049b0);
+  color: linear-gradient(left, #21d4fd, #0049b0);
 }
 
 /*---------------------------------------------*/
@@ -74,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: IranSans;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -141,19 +150,23 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: IranSans;
   font-size: 13px;
-  color: #666666;
+
   line-height: 1.5;
+
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: IranSans;
   font-size: 13px;
-  color: #333333;
+  color: #0049b0;
   line-height: 1.5;
+  text-decoration: none;
 }
 
+.form-group {
+  margin-bottom: 25px; }
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
 
@@ -198,10 +211,17 @@ iframe {
 .login100-form {
   width: 100%;
 }
-
+.logo{
+display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 4rem;
+  position: relative;
+  top: -8px;
+}
 .login100-form-title {
   display: block;
-  font-family: Poppins-Bold;
+
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
@@ -222,7 +242,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-Regular;
+  font-family: IranSans;
   font-size: 15px;
   color: #555555;
   line-height: 1.2;
@@ -260,14 +280,14 @@ iframe {
   transition: all 0.4s;
 
   background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
+  background: -webkit-linear-gradient(left, #21d4fd, #0049b0);
+  background: -o-linear-gradient(left, #21d4fd, #0049b0);
+  background: -moz-linear-gradient(left, #21d4fd, #0049b0);
+  background: linear-gradient(left, #21d4fd, #0049b0);
 }
 
 .focus-input100::after {
-  font-family: Poppins-Regular;
+  font-family: IranSans;
   font-size: 15px;
   color: #999999;
   line-height: 1.2;
@@ -316,8 +336,8 @@ iframe {
   position: absolute;
   height: 100%;
   top: 0;
-  right: 0;
-  padding-right: 5px;
+  left: 0;
+  padding-left: 5px;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -325,20 +345,22 @@ iframe {
   transition: all 0.4s;
 }
 
-.btn-show-pass:hover {
+.
+
+btn-show-pass:hover {
   color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: -webkit-linear-gradient(left, #21d4fd, #0049b0);
+  color: -o-linear-gradient(left, #21d4fd, #0049b0);
+  color: -moz-linear-gradient(left, #21d4fd, #0049b0);
+  color: linear-gradient(left, #21d4fd, #0049b0);
 }
 
 .btn-show-pass.active {
   color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: -webkit-linear-gradient(left, #21d4fd, #0049b0);
+  color: -o-linear-gradient(left, #21d4fd, #0049b0);
+  color: -moz-linear-gradient(left, #21d4fd, #0049b0);
+  color: linear-gradient(left, #21d4fd, #0049b0);
 }
 
 
@@ -371,11 +393,11 @@ iframe {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: #a64bf4;
-  background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+  background: #0049b0;
+  background: -webkit-linear-gradient(right, #21d4fd, #0049b0, #21d4fd, #0049b0);
+  background: -o-linear-gradient(right, #21d4fd, #0049b0, #21d4fd, #0049b0);
+  background: -moz-linear-gradient(right, #21d4fd, #0049b0, #21d4fd, #0049b0);
+  background: linear-gradient(right, #21d4fd, #0049b0, #21d4fd, #0049b0);
   top: 0;
   left: -100%;
 
@@ -386,7 +408,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Poppins-Medium;
+  font-family: IranSans;
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -444,7 +466,7 @@ iframe {
   right: 0px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: IranSans;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -457,6 +479,9 @@ iframe {
   -o-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
   transition: opacity 0.4s;
+}
+.text-center{
+  text-align: center;
 }
 
 .alert-validate::after {

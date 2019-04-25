@@ -12,6 +12,7 @@
     <link href="../../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
     <link href="../../css/style.dashboard.css" rel="stylesheet">
     <link href="../../css/colors/blue.css" id="theme" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/pace-theme-minimal.css">
 
 </head>
 <style>
@@ -29,53 +30,45 @@
             <li class="nav-item dropdown d-flex align-items-center mr-2">
                 <a class="nav-link nav-link-notifications" id="dropdownNotifications" data-toggle="dropdown" href="#">
                     <i class="oi oi-bell display-inline-block align-middle"></i>
-                    <span class="nav-link-notification-number">3</span>
+                    <span class="nav-link-notification-number">۳</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-notifications" aria-labelledby="dropdownNotifications">
                     <div class="notifications-header d-flex justify-content-between align-items-center">
                 <span class="notifications-header-title">
-                  Notifications
+                  اعلان ها
                 </span>
-                        <a href="#" class="d-flex"><small>Mark all as read</small></a>
+
                     </div>
 
                     <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-action unread">
-                            <p class="mb-1">Invitation for <strong>Lunch</strong> on <strong>Jan 12th 2018</strong> by <strong>Laura</strong></p>
+                            <p class="mb-1">یک پیام از علی رضانسب در رابطه با<strong> برف روبی پله های دانشکده</strong> در <strong>۱۳۹۸/۰۲/۰۵</strong> داشته اید.</p>
 
-                            <div class="mb-1">
-                                <button type="button" class="btn btn-primary btn-sm">Accept invite</button>
-                                <button type="button" class="btn btn-outline-danger btn-sm">Decline</button>
-                            </div>
-
-                            <small>1 hour ago</small>
+                            <small>چند دقیقه پیش</small>
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action">
-                            <p class="mb-1"><strong class="text-success">Goal completed</strong><br />1,000 new members today</p>
-                            <small>3 days ago</small>
+                            <p class="mb-1"><strong class="text-success">کار با موفقیت به اتمام رسید</strong><br />پرونده انتقاد پویا پاینده با حل مشکل به اتمام رسید.</p>
+                            <small>۳ روز پیش</small>
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action">
-                            <p class="mb-1 text-danger"><strong>System error detected</strong></p>
-                            <small>3 days ago</small>
+                            <p class="mb-1 text-danger"><strong>عدم حل مشکل پس از گذشت یک ماه</strong></p>
+                            <small>۵ روز پیش</small>
                         </a>
 
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <p class="mb-1">Your task <strong>Design Draft</strong> is due today.</p>
-                            <small>4 days ago</small>
-                        </a>
+
                     </div>
 
                     <div class="notifications-footer text-center">
-                        <a href="#"><small>View all notifications</small></a>
+                        <a href="#"><small>نمایش همه اعلان ها</small></a>
                     </div>
                 </div>
             </li>
             <!-- Notifications -->
             <li class="nav-item dropdown">
                 <a class="nav-link avatar-with-name" id="navbarDropdownMenuLink" data-toggle="dropdown" href="#">
-                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" class="d-inline-block align-top" alt="">
+                    <img src="../../img/users/aliAkbari.jpg" class="d-inline-block align-top" alt="">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="#">صادق علی اکبری</a>
@@ -91,7 +84,7 @@
     <div class="adminx-sidebar expand-hover push">
         <ul class="sidebar-nav">
             <li class="sidebar-nav-item">
-                <a href="admin.dashboard.html" class="sidebar-nav-link">
+                <a href="admin.dashboard.html" class="sidebar-nav-link ">
               <span class="sidebar-nav-icon">
                 <i data-feather="home"></i>
               </span>
@@ -104,7 +97,7 @@
             </li>
 
             <li class="sidebar-nav-item">
-                <a href="#" class="sidebar-nav-link active">
+                <a href="messages.html" class="sidebar-nav-link">
               <span class="sidebar-nav-icon">
                 <i data-feather="inbox"></i>
               </span>
@@ -112,13 +105,13 @@
                 پیام ها
               </span>
                     <span class="sidebar-nav-end">
-                <span class="badge badge-info">4</span>
+                <span class="badge badge-info">۴</span>
               </span>
                 </a>
             </li>
 
             <li class="sidebar-nav-item">
-                <a href="#" class="sidebar-nav-link ">
+                <a href="chart.html" class="sidebar-nav-link ">
               <span class="sidebar-nav-icon">
                 <i data-feather="pie-chart"></i>
               </span>
@@ -131,7 +124,7 @@
             </li>
 
             <li class="sidebar-nav-item">
-                <a href="index.html" class="sidebar-nav-link ">
+                <a href="set_users.html" class="sidebar-nav-link active">
               <span class="sidebar-nav-icon">
                 <i data-feather="users"></i>
               </span>
@@ -144,7 +137,7 @@
             </li>
 
             <li class="sidebar-nav-item">
-                <a href="index.html" class="sidebar-nav-link ">
+                <a href="send%20message.html" class="sidebar-nav-link ">
               <span class="sidebar-nav-icon">
                 <i data-feather="edit"></i>
               </span>
@@ -157,7 +150,7 @@
             </li>
 
             <li class="sidebar-nav-item">
-                <a href="index.html" class="sidebar-nav-link ">
+                <a href="../404.html" class="sidebar-nav-link ">
               <span class="sidebar-nav-icon">
                 <i data-feather="help-circle"></i>
               </span>
@@ -196,7 +189,7 @@
                     </li>
 
                     <li class="sidebar-nav-item">
-                        <a href="./layouts/tables_data.html" class="sidebar-nav-link">
+                        <a href="../../index.html" class="sidebar-nav-link">
                   <span class="sidebar-nav-icon">
                    <i data-feather="log-out"></i>
                   </span>
@@ -334,7 +327,7 @@
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/vendor.js"></script>
 <script src="../../js/adminx.js"></script>
-
+<script type="text/javascript" src="../../js/pace.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <script>

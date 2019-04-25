@@ -1877,7 +1877,7 @@ pre code {
 
 .table td, .table th {
     padding: .75rem;
-    vertical-align: top;
+    vertical-align: baseline;
     border-top: 1px solid #dee2e6
 }
 
@@ -12283,7 +12283,7 @@ table.dataTable.nowrap td, table.dataTable.nowrap th {
 }
 
 div.dataTables_wrapper div.dataTables_length label {
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
     white-space: nowrap
 }
@@ -12298,7 +12298,7 @@ div.dataTables_wrapper div.dataTables_filter {
 }
 
 div.dataTables_wrapper div.dataTables_filter label {
-    font-weight: 400;
+    font-weight: 300;
     white-space: nowrap;
     text-align: left
 }

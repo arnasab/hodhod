@@ -834,7 +834,8 @@ html body .waves-notransition {
   background-color: #1e88e5; }
 
 .badge-primary {
-  background-color: #7460ee; }
+  color: #fff;
+  background-color: #007bff; }
 
 .badge-warning {
   background-color: #ffc107; }
@@ -843,13 +844,15 @@ html body .waves-notransition {
   background-color: #dc3545; }
 
 .badge-purple {
-  background-color: #7460ee; }
+  background-color: #7460ee;
+  color: #fff;}
 
 .badge-red {
   background-color: #fb3a3a; }
 
 .badge-inverse {
-  background-color: #6c757d; }
+  background-color: #6c757d;
+  color: #fff;}
 
 /*******************
 Buttons
